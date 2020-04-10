@@ -1,16 +1,38 @@
 body {
-  font-family: sans-serif;
-  font-size: 1.6rem;
-  line-height: 1.5
-  text-align:center;
-  color: #333;
-  margin: 0;
+  background-color: rgba(178,179,180,.34);
 }
 
+#main {
+}
 #title {
-  font-family: monospace;
+  font-family: mononoki;
   font-size: 30px;
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+#titile-caption {
+  font-size: 12px;
+  text-align: center;
+}
+
+#img-div {
+  background: white;
+  padding: 20px;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+}
+#img-caption {
+  margin: : 20px 0 5px 0;
+}
+
+@@media (max-width:460px) {
+  #img-caption {font-size: 1.4em}
+
 }
