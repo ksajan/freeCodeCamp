@@ -18,19 +18,19 @@
       <form id="survey-form" action="index.html" method="post">
         <div class="details-group">
           <label for="name-label" id="name">Name</label>
-          <input type="text" name="name" placeholder="Enter Your Name" id="name" required />
+          <input type="text" name="name" placeholder="Enter Your Name" id="name" class="control" required />
         </div>
         <div class="details-group">
           <label for="email-label" id="email">Email</label>
-          <input type="text" name="email" type="email" placeholder="Enter Your Email-Id" id="email" required />
+          <input type="text" name="email" type="email" placeholder="Enter Your Email-Id" id="email" class="control" required />
         </div>
         <div class="details-group">
           <label for="age" id="number-label">Age</label>
-          <input type="text" name="number" type="number" min="1" max="99" step="5" placeholder="Enter your age" id="age" required />
+          <input type="text" name="number" type="number" min="1" max="99" step="5" placeholder="Enter your age" id="age" class="control" required />
         </div>
         <div class="details-group">
           <label for="role" id="dropdown">Specify Your Role</label>
-          <select id="dropdown" name="role">
+          <select id="dropdown" name="role" class="control">
             <option value="specify">Please Specify</option
             <option value="student">Student</option>
             <option value="faculty">Faculty</option>
@@ -39,11 +39,11 @@
         </div>
         <div class="details-group">
           <p>Years of Experience</p>
-          <label><input type="radio" name="exp" value="1" />1</label><br>
-          <label><input type="radio" name="exp" value="2" />2</label><br>
-          <label><input type="radio" name="exp" value="3" />3</label><br>
-          <label><input type="radio" name="exp" value="4" />4</label><br>
-          <label><input type="radio" name="exp" value="5" />5</label><br>
+          <label><input type="radio" name="exp" value="1" class="radio"/>1</label><br>
+          <label><input type="radio" name="exp" value="2" class="radio"/>2</label><br>
+          <label><input type="radio" name="exp" value="3" class="radio"/>3</label><br>
+          <label><input type="radio" name="exp" value="4" class="radio"/>4</label><br>
+          <label><input type="radio" name="exp" value="5" class="radio"/>5</label><br>
         </div>
         <div class="details-group">
           <p>Would You recommend this template your friend you use</p>
