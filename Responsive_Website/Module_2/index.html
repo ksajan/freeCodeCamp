@@ -16,8 +16,20 @@
     <div class="Form">
       <form id="survey-form" action="index.html" method="post">
         <div class="details-group">
-          <label for="name" id="name">Name</label>
+          <label for="name-label" id="name">Name</label>
           <input type="text" name="name" placeholder="Enter Your Name" id="name" required />
+        </div>
+        <div class="details-group">
+          <label for="email-label" id="email">Email</label>
+          <input type="text" name="email" type="email" placeholder="Enter Your Email-Id" id="email" required/>
+        </div>
+        <div class="details-group">
+          <label for="age" id="number-label">Age</label>
+          <input type="text" name="number" type="number" min="1" max="99" step="5" placeholder="Enter your age" id="age" required/>
+        </div>
+        <div class="details-group">
+          <label for="role" id="dropdown">Email</label>
+          <input type="" name="email" placeholder="Enter Your Email-Id" id="email" required/>
         </div>
       </form>
 
