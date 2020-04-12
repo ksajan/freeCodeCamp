@@ -37,6 +37,15 @@ body::before {
   background-position: center;
 }
 
+h3 {
+  font-weight: 400;
+  font-height: 1.2;
+}
+
+
+
 .container {
-  
+  background-color: var(--color-darkblue);
+  padding: 40px;
+  align-items: center;
 }
