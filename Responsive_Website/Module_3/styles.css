@@ -2,3 +2,15 @@ body {
   font-family: sans-serif;
   background-color: #eee
 }
+
+header {
+  min-height: 75px;
+  display: flex;
+  padding: 0px 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ #header-img {
+   align-items: center;
+ }
